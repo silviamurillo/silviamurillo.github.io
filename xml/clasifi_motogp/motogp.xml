@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<clasificaciones xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="motogp.xsd">
+
+  <clasificación>
+  <posición>1</posición>
+		<país_piloto>España</país_piloto>
+		<piloto>M. Márquez</piloto>
+		<equipo>Honda #93</equipo>
+		<puntos>70</puntos>
+		</clasificación>
+	
+	<clasificación>
+    <posición>2</posición>
+    <país_piloto>España</país_piloto>
+    <piloto>A. Rins</piloto>
+    <equipo>Suzuki #42</equipo>
+    <puntos>69</puntos>
+    </clasificación>
+	
+  <clasificación>
+    <posición>3</posición>
+    <país_piloto>Italia</país_piloto>
+    <piloto>A. Dovizioso</piloto>
+    <equipo>Ducati #4</equipo>
+    <puntos>67</puntos>
+    </clasificación>
+
+<clasificación>
+    <posición>4</posición>
+    <país_piloto>Italia</país_piloto>
+    <piloto>V. Rossi</piloto>
+    <equipo>Yamaha #46</equipo>
+    <puntos>61</puntos>
+    </clasificación>
+
+<clasificación>
+    <posición>5</posición>
+    <país_piloto>Italia</país_piloto>
+    <piloto>D. Petrucci</piloto>
+    <equipo>Ducati #9</equipo>
+    <puntos>41</puntos>
+</clasificación>
+
+<clasificación>
+    <posición>6</posición>
+    <país_piloto>España</país_piloto>
+    <piloto>M. Viñales</piloto>
+    <equipo>Yamaha #12</equipo>
+    <puntos>30</puntos>
+    </clasificación>
+
+<clasificación>
+    <posición>7</posición>
+    <país_piloto>Australia</país_piloto>
+    <piloto>J. Miller</piloto>
+    <equipo>Ducati #43</equipo>
+    <puntos>29</puntos>
+    </clasificación>
+
+<clasificación>
+    <posición>8</posición>
+    <país_piloto>Japón</país_piloto>
+    <piloto>T Nakagami</piloto>
+    <equipo>Honda #35</equipo>
+    <puntos>29</puntos>
+    </clasificación>
+    
+<clasificación>
+    <posición>9</posición>
+    <país_piloto>Inglaterra</país_piloto>
+    <piloto>C. Crutchlow</piloto>
+    <equipo>Honda #35</equipo>
+    <puntos>27</puntos>
+</clasificación>
+
+<clasificación>
+    <posición>10</posición>
+    <país_piloto>Italia</país_piloto>
+    <piloto>F. Morbidelli</piloto>
+    <equipo>Yamaha #21</equipo>
+    <puntos>25</puntos>
+    </clasificación>
+
+<clasificación>
+    <posición>11</posición>
+    <país_piloto>España</país_piloto>
+    <piloto>P. Espargaró</piloto>
+    <equipo>KTM #44</equipo>
+    <puntos>21</puntos>
+    </clasificación>
+    
+<clasificación>
+    <posición>12</posición>
+    <país_piloto>España</país_piloto>
+    <piloto>A. Espargaró</piloto>
+    <equipo>Apirilia #41</equipo>
+    <puntos>18</puntos>
+    </clasificación>
+
+<clasificación>
+    <posición>13</posición>
+    <país_piloto>Francia</país_piloto>
+    <piloto>F. Quartararo</piloto>
+    <equipo>Yamaha #20</equipo>
+    <puntos>17</puntos>
+    </clasificación>
+
+<clasificación>
+    <posición>14</posición>
+    <país_piloto>España</país_piloto>
+    <piloto>J. Lorenzo</piloto>
+    <equipo>Honda #99</equipo>
+    <puntos>11</puntos>
+    </clasificación>
+
+<clasificación>
+    <posición>15</posición>
+    <país_piloto>Italia</país_piloto>
+    <piloto>F. Bagnaia</piloto>
+    <equipo>Ducati #63</equipo>
+    <puntos>9</puntos>
+    </clasificación>
+
+<clasificación>
+    <posición>17</posición>
+    <país_piloto>Francia</país_piloto>
+    <piloto>J. Zarco</piloto>
+    <equipo>KTM #5</equipo>
+    <puntos>7</puntos>
+    </clasificación>
+
+<clasificación>
+    <posición>18</posición>
+    <país_piloto>Portugal</país_piloto>
+    <piloto>M. Oliveira</piloto>
+    <equipo>KTM #88</equipo>
+    <puntos>7</puntos>
+    </clasificación>
+
+<clasificación>
+    <posición>19</posición>
+    <país_piloto>Alemania</país_piloto>
+    <piloto>S. Bradl</piloto>
+    <equipo>Honda #6</equipo>
+    <puntos>6</puntos>
+    </clasificación>
+
+<clasificación>
+    <posición>20</posición>
+    <país_piloto>Italia</país_piloto>
+    <piloto>A. Iannone</piloto>
+    <equipo>Aprilia #29</equipo>
+    <puntos>6</puntos>
+    </clasificación>
+
+<clasificación>
+    <posición>21</posición>
+    <país_piloto>España</país_piloto>
+    <piloto>E. Rabat</piloto>
+    <equipo>Ducati #53</equipo>
+    <puntos>2</puntos>
+    </clasificación>
+
+<clasificación>
+    <posición>22</posición>
+    <país_piloto>Reino Unido</país_piloto>
+    <piloto>B. Smith</piloto>
+    <equipo>Aprilia #38</equipo>
+    <puntos>0</puntos>
+    </clasificación>
+
+<clasificación>
+    <posición>23</posición>
+    <país_piloto>República Checa</país_piloto>
+    <piloto>K. Abraham</piloto>
+    <equipo>Ducati #17</equipo>
+    <puntos>0</puntos>
+</clasificación>
+
+<clasificación>
+    <posición>24</posición>
+    <país_piloto>Malasia</país_piloto>
+    <piloto>H. Syahrin</piloto>
+    <equipo>KTM #55</equipo>
+    <puntos>0</puntos>
+    </clasificación>
+    
+</clasificaciones>

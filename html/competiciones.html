@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>Competiciones</title>
+  <meta charset="utf-8">
+    <link rel="shortcut icon" type="image/x-icon" href="../favicon/tmlogo.ico">
+
+
+  <link rel="stylesheet" type="text/css" href="../css/html/competiciones.css">
+  <script src="../js/tabla.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="../css/comun.css">
+  <script src="../js/comun.js"></script>
+
+</head>
+
+<body onload="abriir(event, 'motogp')">
+
+    <header>
+    <div class="topnav">
+        <a id="abrir" class="abrir-cerrar" href="javascript:void(0)" onclick="mostrar()"><img src="../imagenes/comun/desplegar.png"></a>
+        <a id="imagen_todomoto" href="../index.html"><img src="../imagenes/comun/todomoto1.png"></a>
+        <a id="iniciar_sesion_enlace" style="float: right; cursor: pointer; color: white;" onclick="document.getElementById('funcion_iniciar').style.display='block'" style="width:auto;"><u>Iniciar sesión</u></a>
+    </div>
+
+
+
+<!--MENU-->
+
+    <div id="barra" class="barra">
+    
+      <a href="#" class="boton-cerrar" onclick="ocultar()">x</a>
+      <ul>
+        <li><a href="tipos_de_motos.html">Tipos de motos</a></li>
+        <li><a href=carnets.html>Carnets</a></li>
+        <li><a href="rutas_por_españa.html">Rutas por España</a></li>
+        <li><a href="competiciones.html">Competiciones</a></li>
+      </ul>
+    
+    </div>
+
+<!--FIN MENU-->
+
+
+
+<!--INICIAR SESION-->
+
+    <div id="funcion_iniciar" class="inicio">
+        <form class="modal-content animate">
+            <div class="imagen_iniciar">
+              <span onclick="document.getElementById('funcion_iniciar').style.display='none'" class="cerrar">x</span>
+              <img id="imagen_avataar" src="../imagenes/comun/avatar.png">
+            </div>
+
+                <div class="datos">
+                  <form>
+                      <label for="correo"><b>Correo electrónico</b></label><br>
+                      <input style="width: 100%; margin-top: 2%;" type="email" placeholder="Correo electrónico" name="correo" required id="form_inicio"><br><br>
+
+                    <label for="contra"><b>Contraseña</b></label><br>
+                    <input style="width: 100%;" type="password" placeholder="Contraseña" name="contra" required id="form_inicio"><br>
+
+                    <label><input type="checkbox" checked="checked" name="recordar">Recuérdame</label>
+        
+                  <button class="botonn" type="submit">Iniciar sesión</button>
+          </form>
+                  
+                  <a id="ainicio1" href="">¿Has olvidado tu contraseña?</a>
+                  <a id="ainicio2" href="registro.html">¿No tienes cuenta? Regístrate</a>
+                </div>
+                
+            </form>
+        </div>
+
+<!--FIN INICIAR SESION-->
+  
+  </header>
+
+  <section>
+
+    <h1 id="h1_principal">Competiciones</h1>
+      <img id="img_principal" src="../imagenes/competiciones/competiciones.jpg">
+
+<div class="tablaa">
+  <button class="pestañas" onclick="abriir(event, 'motogp')" id="defaultOpen">MotoGP</button>
+  <button class="pestañas" onclick="abriir(event, 'superbikes')">Superbikes</button>
+  <button class="pestañas" onclick="abriir(event, 'enduro')">Enduro</button>
+  <button class="pestañas" onclick="abriir(event, 'supersport')">Supersport</button>
+  <button class="pestañas" onclick="abriir(event, 'motocross')">Motocross</button>
+  <button class="pestañas" onclick="abriir(event, 'dakar')">Dakar</button>
+</div>
+
+<div id="motogp" class="contenidoo">
+  <h2 id="h2_principal">Mundial MotoGP</h2>
+        <p id="parrafo">El Campeonato del Mundo de Motociclismo que popularmente recibe el nombre de la categoría principal de MotoGP es la máxima competición mundial de motociclismo de velocidad  y se divide en tres categorías: MotoGP, Moto2 y Moto3. 18 carreras de motos en 14 países distintos componen el calendario actual.</p>
+  
+        <h3 id="clasificaciontitulo"><u>Clasificación</u></h3>
+        <iframe id="iframe_compe" frameborder="0" src="../xml/clasifi_motogp/motogp.html"></iframe>
+
+        <img class="img_compet" id="motogpp1" src="../imagenes/competiciones/motogp2.jpg"><br>
+        <img class="img_compet" id="motogpp" src="../imagenes/competiciones/motogp4.jpg"><br>
+        <img class="img_compet" id="motogp2" src="../imagenes/competiciones/motogp5.jpg">
+</div>
+
+<div id="superbikes" class="contenidoo">
+  <h2 id="h2_principal">Campeonato Mundial de Superbikes</h2>
+        <p id="parrafo">El Campeonato Mundial de Superbikes es un campeonato de motociclismo de velocidad que depende de la Federación Internacional de Motociclismo. Su historia comienza en 1988. En este caso las motos que se utilizan deben ser de la categoría superbike, son de 4 tiempos y de distintas cilindradas.
+        <br><br>
+        La temporada 2017 comenzó el 25 de febrero en Phillip Island y terminará el 4 de noviembre en el Losail International Circuit después de 13 rondas;  en España nos llevamos dos capítulos de esta interesante competición.
+        <br><br>
+        A primeros de abril tuvo lugar el campeonato MotorLand Aragón y en octubre la competición pasará por el circuito de Jerez. En la actualidad en el Mundial de Superbike  dominan las tres primeras plazas los británicos Rea (Kawasaki) , Sykes (Kawasaki) y Davies (Ducati). En la séptima y la octava posición encontramos a dos españoles, Forés (Ducati) y Torres (BMW).</p> 
+  
+        <img class="img_compet" src="../imagenes/competiciones/superbikes.jpg"><br>
+        <img class="img_compet" src="../imagenes/competiciones/superbikes2.jpg"><br>
+        <img style="margin-bottom: 10px;" class="img_compet" src="../imagenes/competiciones/superbikes3.jpg"><br>
+</div>
+
+<div id="enduro" class="contenidoo">
+  <h2 id="h2_principal">Mundial de Enduro</h2>
+        <p id="parrafo">El enduro es una modalidad de motociclismo que se practica en campo abierto y también en cubierto. La palabra enduro tiene que ver con la palabra inglesa endurance que significa resistencia. Y eso es precisamente lo que tienen que tener los pilotos que quieran enfrentarse a esta competición tipo rallie.</p>
+  
+        <img class="img_compet" src="../imagenes/competiciones/enduro3.jpg"><br>
+        <img class="img_compet" src="../imagenes/competiciones/enduro1.jpg"><br>
+        <img style="margin-bottom: 10px;" class="img_compet" src="../imagenes/competiciones/enduro2.jpg">
+</div>
+
+<div id="supersport" class="contenidoo">
+  <h2 id="h2_principal">Mundial de Supersport</h2>
+        <p id="parrafo">Las motocicletas deportivas medianas tienen su lugar en el campeonato mundial de Supersport. Es una competición que se desarrolla en circuitos. El campeonato se corre como una clase soporte del campeonato mundial de Superbikes y se basa en las grandes motocicletas deportivas de producción. Es una competición muy interesante que tiene un público fiel en muchos países.</p>
+  
+        <img class="img_compet" src="../imagenes/competiciones/supersport1.jpg"><br>
+        <img style="margin-bottom: 10px;" class="img_compet" src="../imagenes/competiciones/supersport2.jpg">
+</div>
+
+<div id="motocross" class="contenidoo">
+  <h2 id="h2_principal">Mundial de Motocross</h2>
+        <p id="parrafo">El campeonato mundial de Motocross es otra de las citas que ningún aficionado a las motos quiere perderse. Es una prueba que se desarrolla en varios países saltando de continente. El italiano Antonio Cairoli (actual líder), el esloveno Tim Gasjer y el holandés Jeffrey Herlings son los pilotos más destacados del circuito. En España contamos con Jorge Prado en MX2.</p>
+  
+        <img class="img_compet" src="../imagenes/competiciones/motocross1.jpg"><br>
+        <img class="img_compet" src="../imagenes/competiciones/motocross2.jpg"><br>
+        <img class="img_compet" src="../imagenes/competiciones/motocross3.jpg"><br>
+        <img style="margin-bottom: 10px;" class="img_compet" src="../imagenes/competiciones/motocross4.jpg">
+        
+</div>
+
+
+<div id="dakar" class="contenidoo">
+  <h2 id="h2_principal">Rally París - Dakar</h2>
+        <p id="parrafo">Hemos dejado para el final esta competición tan excitante pensada para los amantes de las emociones fuertes. Coches, camiones, quads y motos son las cuatro categorías de esta prueba con tanta historia. Entre estas modalidades sin duda la de motos es la más peligrosa de todas las que se dan en el rally París-Dakar, debido a que el conductor se encuentra desprotegido. También es la más popular, ya que su coste es asumible para muchos conductores aficionados, con motos de producción en serie tipo Enduro.</p>
+  
+        <img class="img_compet" src="../imagenes/competiciones/dakar1.jpg"><br>
+        <img class="img_compet" src="../imagenes/competiciones/dakar2.jpg"><br>
+        <img style="margin-bottom: 10px;" class="img_compet" src="../imagenes/competiciones/dakar3.jpg">
+        
+</div>
+
+</section>
+
+  <footer>
+    <p id="parrafo_siguenos">Síguenos en:</p>
+    <div id="redes">
+      <a href="https://www.facebook.com/"><img class="redes_img" src="../imagenes/comun/facebook.png"></a>
+      <a href="https://www.instagram.com/"><img class="redes_img" src="../imagenes/comun/instagram.jpg"></a>
+      <a href="https://www.twitter.com/"><img class="redes_img" src="../imagenes/comun/twitter.png"></a>
+    </div>
+          
+    <div id="afinal">
+      <ul>
+        <li id="li_footer"><a id="li_a"><u>Condiciones de uso</u></a></li>
+        <li id="li_footer"><a id="li_a2"><u>Política de cookies</u></a></li>
+      </ul>
+    </div>
+    
+  </footer>
+
+
+   
+</body>
+</html>

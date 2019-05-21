@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rutas por España</title>
+		<meta charset="utf-8">
+      <link rel="shortcut icon" type="image/x-icon" href="../favicon/tmlogo.ico">
+
+  <link rel="stylesheet" type="text/css" href="../css/html/rutas_por_españa.css">
+	<link rel="stylesheet" type="text/css" href="../css/comun.css">
+	<script src="../js/comun.js"></script>
+</head>
+<body>
+	<header>
+		<div class="topnav">
+  			<a id="abrir" class="abrir-cerrar" href="javascript:void(0)" onclick="mostrar()"><img src="../imagenes/comun/desplegar.png"></a>
+  			<a id="imagen_todomoto" href="../index.html"><img src="../imagenes/comun/todomoto1.png"></a>
+  			<a id="iniciar_sesion_enlace" style="float: right; cursor: pointer; color: white;" onclick="document.getElementById('funcion_iniciar').style.display='block'" style="width:auto;"><u>Iniciar sesión</u></a>
+		</div>
+
+
+
+<!--MENU-->
+
+		<div id="barra" class="barra">
+    
+      <a href="#" class="boton-cerrar" onclick="ocultar()">x</a>
+      <ul>
+        <li><a href="tipos_de_motos.html">Tipos de motos</a></li>
+        <li><a href=carnets.html>Carnets</a></li>
+        <li><a href="rutas_por_españa.html">Rutas por España</a></li>
+        <li><a href="competiciones.html">Competiciones</a></li>
+      </ul>
+    
+    </div>
+
+<!--FIN MENU-->
+
+
+
+<!--INICIAR SESION-->
+
+		<div id="funcion_iniciar" class="inicio">
+        <form class="modal-content animate">
+            <div class="imagen_iniciar">
+              <span onclick="document.getElementById('funcion_iniciar').style.display='none'" class="cerrar">x</span>
+              <img id="imagen_avataar" src="../imagenes/comun/avatar.png">
+            </div>
+
+                <div class="datos">
+                  <form>
+                      <label for="correo"><b>Correo electrónico</b></label><br>
+                      <input style="width: 100%; margin-top: 2%;" type="email" placeholder="Correo electrónico" name="correo" required id="form_inicio"><br><br>
+
+                    <label for="contra"><b>Contraseña</b></label><br>
+                    <input style="width: 100%;" type="password" placeholder="Contraseña" name="contra" required id="form_inicio"><br>
+
+                    <label><input type="checkbox" checked="checked" name="recordar">Recuérdame</label>
+        
+                  <button class="botonn" type="submit">Iniciar sesión</button>
+          </form>
+                  
+                  <a id="ainicio1" href="">¿Has olvidado tu contraseña?</a>
+                  <a id="ainicio2" href="registro.html">¿No tienes cuenta? Regístrate</a>
+                </div>
+                
+            </form>
+        </div>
+<!--FIN INICIAR SESION-->
+  
+  </header>
+
+
+
+  	<section>
+
+		<h1 id="h1_principal">Rutas en moto por España: las mejores que puedes hacer</h1>
+
+		<img id="img_principal" src="../imagenes/rutas/rutas.jpg">
+
+		<h2 id="text1">¿Curvas o llanura? ¿Playa o montaña? España es un paraíso para todos aquellos motoristas que deciden hacer rutas de fin de semana, escapadas de vacaciones e incluso rutas en moto de un solo día. Aquí, te dejamos una selección de las mejores rutas en moto que puedes realizar en España.</h2>
+
+		<p id="parrafo">La moto es, sin duda, una de las mejores formas para disfrutar no solo del destino sino también del viaje y ese viaje o ruta en moto es por España como que se disfruta el doble. Buen tiempo, comida de gran variedad y nivel, carreteras para todos los gustos y paisajes de los que disfrutar mientras abrimos gas con la moto o en una de las responsable paradas que se debe realizar cuando se hace un ruta en moto.
+		<br>
+		Desde Fórmula Moto nos hemos propuesto que conozcas cuáles son algunas de las mejores carreteras, pueblos y paisajes para disfrutar de una ruta en moto por nuestro país. Es una pequeña selección que seguro los motoristas pueden ampliar con sus experiencias, pero que es una mínima muestra de lo que podemos disfrutar de la combinación entre carreteras, paisajes, buena comida y motos.</p>
+
+		<a href="../iframes/duraton.html#duratoniframe" target="iframe"><img class="opaci" id="duraton" src="../imagenes/rutas/castillayleon.jpg">
+
+		<a href="../iframes/paisvasco.html#paisvascoiframe" target="iframe"><img class="opaci" id="paisvasco" src="../imagenes/rutas/paisvasco.jpg">
+
+		<a href="../iframes/galicia.html#galiciaiframe" target="iframe"><img class="opaci" id="galicia" src="../imagenes/rutas/galicia.jpg">
+
+		<a href="../iframes/cadiz.html#cadiziframe" target="iframe"><img class="opaci" id="cadiz" src="../imagenes/rutas/cadiz.jpg">
+
+		<a href="../iframes/granada.html#granadaiframe" target="iframe"><img class="opaci" id="granada" src="../imagenes/rutas/granada.jpg">
+
+		<a href="../iframes/aragon.html#aragoniframe" target="iframe"><img class="opaci" id="aragon" src="../imagenes/rutas/aragon.jpg"></a>
+
+		<iframe scrolling="no" name="iframe"></iframe>
+	</section>
+
+
+
+	  <footer>
+    <p id="parrafo_siguenos">Síguenos en:</p>
+    <div id="redes">
+      <a href="https://www.facebook.com/"><img class="redes_img" src="../imagenes/comun/facebook.png"></a>
+      <a href="https://www.instagram.com/"><img class="redes_img" src="../imagenes/comun/instagram.jpg"></a>
+      <a href="https://www.twitter.com/"><img class="redes_img" src="../imagenes/comun/twitter.png"></a>
+    </div>
+          
+    <div id="afinal">
+      <ul>
+        <li id="li_footer"><a id="li_a"><u>Condiciones de uso</u></a></li>
+        <li id="li_footer"><a id="li_a2"><u>Política de cookies</u></a></li>
+      </ul>
+    </div>
+    
+  </footer>
+
+
+
+</head>
+<body>
+
+</body>
+</html>

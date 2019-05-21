@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tipos de motos</title>
+  <meta charset="utf-8">
+    <link rel="shortcut icon" type="image/x-icon" href="../favicon/tmlogo.ico">
+
+	
+  <link rel="stylesheet" type="text/css" href="../css/html/tipos_de_motos.css">
+	<link rel="stylesheet" type="text/css" href="../css/comun.css">
+	<script src="../js/comun.js"></script>
+</head>
+<body>
+	<header>
+		<div class="topnav">
+  			<a id="abrir" class="abrir-cerrar" href="javascript:void(0)" onclick="mostrar()"><img src="../imagenes/comun/desplegar.png"></a>
+  			<a id="imagen_todomoto" href="../index.html"><img src="../imagenes/comun/todomoto1.png"></a>
+  			<a id="iniciar_sesion_enlace" style="float: right; cursor: pointer; color: white;" onclick="document.getElementById('funcion_iniciar').style.display='block'" style="width:auto;"><u>Iniciar sesión</u></a>
+		</div>
+
+
+
+<!--MENU-->
+
+    <div id="barra" class="barra">
+    
+      <a href="#" class="boton-cerrar" onclick="ocultar()">x</a>
+      <ul>
+        <li><a href="tipos_de_motos.html">Tipos de motos</a></li>
+        <li><a href=carnets.html>Carnets</a></li>
+        <li><a href="rutas_por_españa.html">Rutas por España</a></li>
+        <li><a href="competiciones.html">Competiciones</a></li>
+      </ul>
+    
+    </div>
+
+<!--FIN MENU-->
+
+
+
+<!--INICIAR SESION-->
+
+<div id="funcion_iniciar" class="inicio">
+        <form class="modal-content animate">
+            <div class="imagen_iniciar">
+              <span onclick="document.getElementById('funcion_iniciar').style.display='none'" class="cerrar">x</span>
+              <img id="imagen_avataar" src="../imagenes/comun/avatar.png">
+            </div>
+
+                <div class="datos">
+                  <form>
+                      <label for="correo"><b>Correo electrónico</b></label><br>
+                      <input style="width: 100%; margin-top: 2%;" type="email" placeholder="Correo electrónico" name="correo" required id="form_inicio"><br><br>
+
+                    <label for="contra"><b>Contraseña</b></label><br>
+                    <input style="width: 100%;" type="password" placeholder="Contraseña" name="contra" required id="form_inicio"><br>
+
+                    <label><input type="checkbox" checked="checked" name="recordar">Recuérdame</label>
+        
+                  <button class="botonn" type="submit">Iniciar sesión</button>
+          </form>
+                  
+                  <a id="ainicio1" href="">¿Has olvidado tu contraseña?</a>
+                  <a id="ainicio2" href="registro.html">¿No tienes cuenta? Regístrate</a>
+                </div>
+                
+            </form>
+        </div>
+
+<!--FIN INICIAR SESION-->
+  
+  </header>
+
+  <section>
+    
+    <h1 id="h1_principal">¿Conoces todos los tipos de motos que existen?</h1>
+
+    <img id="img_principal" src="../imagenes/tipos/tipos_motos.jpg">
+
+    <div class="diiv" id="diiv1"> 
+      <img class="uno" src="../imagenes/tipos/superdepor.jpg">  
+      <h2 class="h2_principal">Pista / súper deportivas</h2>
+      <p class="parrafo">Poco que explicar de estos modelos, podrían equipararse con autos exóticos, ya que usan lo último que ofrece la tecnología, materiales ligeros y potencias que sobrepasan el peso, unidades que dejaron de ser útiles para la calle y piden a gritos una pista. Estas motos siempre serán “aspiracionales” y enamoran con su diseño y sonido.</p>
+    </div>
+
+    <div class="diiv">
+      <img class="dos" src="../imagenes/tipos/scooter.jpg">
+      <h2 class="h2_principal">Scooter</h2>     
+      <p class="parrafo">Tal vez la puerta de entrada al mundo de las motos, modelos prácticos para el transporte citadino que te hace olvidar las complicaciones de una caja de cambios y clutch, solo es sentarse acelerar, frenar y verse muy coquetos mientras circulan por la calle. Hoy existen muchas opciones e incluso el segmento de los maxi scooter con motores de hasta 600 cc, que compiten en precios con motos de media cilindrada, y pierden agilidad de manejo.</p>   
+    </div>
+
+    <div class="diiv">
+      <img class="uno" src="../imagenes/tipos/crucero.jpg">
+      <h2 class="h2_principal">Crucero</h2>
+      <p class="parrafo">Listas para recorrer cientos de kilómetros de carretera en un día sin que esto represente una tortura para el conductor o pasajero. Espacio para equipaje y gran estabilidad complementan a este segmento que es uno de los más populares en gran parte de América.</p>
+    </div>
+
+    <div class="diiv">
+      <img class="dos" src="../imagenes/tipos/enduro.jpg">
+      <h2 class="h2_principal">Cross / Enduro</h2>
+      <p class="parrafo">¿Así que eres muy sucio he?, pues si es así y además te encanta la adrenalina, los deportes extremos y actividades al aire libre, una moto de los segmentos de Cross o Enduro serán tu mejor acompañante. Enfréntate a la naturaleza por donde no existan senderos y pon a prueba tu fortaleza física, uno de los segmentos más demandantes y divertidos que existen.</p>
+    </div>
+
+    <div class="diiv">
+      <img class="uno" src="../imagenes/tipos/naked.jpg">
+      <h2 class="h2_principal">Naked</h2>
+      <p class="parrafo">Imagina que quieres una moto deportiva con una gran respuesta en el acelerador, pero no te interesa la incomodidad que tienen, para ello nacieron las motos naked con un corte más citadino pero por lo regular usando la base de una moto deportiva. Gracias a esto el desempeño es emocionante tanto en aceleración como en el curveo aunque dependiendo del tamaño del motor pueden despedir mucho calor, aun así pueden ser una buena opción para uso en ciudad, salidas a carretera y un track day.</p>
+    </div>
+
+    <div class="diiv">
+      <img class="dos" src="../imagenes/tipos/supermoto.jpg">
+      <h2 class="h2_principal">Supermoto</h2>
+      <p class="parrafo">Este segmento no es tan popular en México, aunque debería ya que es espectacular, estas motos son el equivalente de los autos de RallyCross con pistas mixtas, es decir cuentan con partes de pavimento y terracería donde los pilotos ofrecen unas inclinaciones extremas en el pavimento y un manejo fino y saltos de vértigo en la tierra. Una de las particularidades que tienen es el que parece que las llantas le quedan chicas con respecto al chasis.</p>
+    </div>
+
+    <div class="diiv">
+      <img class="uno" src="../imagenes/tipos/dobleproposito.jpg">
+      <h2 class="h2_principal">Doble propósito</h2>
+      <p id="parrafo">A título personal, creo que son las mejores motos con representantes que van desde los 250 cc hasta más de 1.200 cc, pero el éxito radica es que tienen la capacidad de rodar por pavimento y tierra ligera (a menos que la equipes con llantas de tacos), ofrecen un manejo ágil y comodidad similar al de una crucero por lo que un viaje largo será algo sencillo. Y de paso no se manejan nada mal en una pista, sin dudas de las mejores opciones.</p>
+    </div>
+
+    <div class="diiv">
+      <img style="margin-top: 9px;" class="dos" src="../imagenes/tipos/urbana.jpg">
+      <h2 class="h2_principal">Urbanas</h2>
+      <p class="parrafo">¿Quieres comenzar en el mundo de las motos pero no quieres saber nada de un scooter y su posición de manejo? entonces una moto de baja cilindrada (menos de 350 cc) es la respuesta. Y además una moto de este segmento será una excelente escuela para tus futuras motos de mayor cilindrada ya que te darán equilibrio, coordinación y sobre todo seguridad. Este segmento ha crecido en el mundo de manera exponencial debido al creciente interés de tener un medio de transporte eficiente y de bajo costo de mantenimiento. Anímate a tener una.</p>
+    </div>
+
+    <div class="diiv">
+      <img class="uno" src="../imagenes/tipos/turismodeportivo.jpg">
+      <h2 class="h2_principal">Turismo deportivo</h2>
+      <p class="parrafo">Una de esas raras combinaciones de segmentos, algo así como fue la naked, pero en este caso mezclan una deportiva con una doble propósito. ¿El resultado?, una deportiva con mayor recorrido de suspensión, que la hace más cómoda en cuanto a posición de manejo pero con la respuesta de un motor de alta cilindrada. Este segmento no ha remontado mucho pero son productos que merecen ser probados si es que requieres más potencia que una doble propósito convencional.</p>
+    </div>
+  
+    <div class="diiv">
+      <img style="margin-top: 9px;" class="dos" src="../imagenes/tipos/caferacer.jpg">
+      <h2 class="h2_principal">Café Racer</h2>
+      <p class="parrafo">En la década de los 50´s eran las motos deportivas que nacían debido a la necesidad de emoción y la carencia de recursos. Estas motos por lo regular eran unidades recicladas de Triumph, Norton, etc., a las que les quitaban carenado y se modificaban partes como el asiento, posa pies, faro y un corto manillar para apoyar a la aerodinámica con el cuerpo. En general eran motos de baja cilindrada pero muy ágiles y el día de hoy son uno de los máximos exponentes del movimiento retro de las motos.</p>
+    </div>
+
+    <div class="diiv">
+      <img class="uno" src="../imagenes/tipos/scrambler.jpg">
+      <h2 class="h2_principal">Scrambler</h2>
+      <p class="parrafo">Si la Café Racer se creó para poder ir rápido, las Scrambler nacieron de la necesidad de salir del camino, podrían considerarse las abuelitas de las doble propósito. Al igual que en el resto de estas motos retro, el carenado es mínimo y se privilegia la vista del motor y una posición de manejo relajada. Llantas de tacos y un escape que apunta hacia arriba para evitar que entre agua son las características de una Scrambler.</p>
+    </div>
+
+    <div class="diiv">
+      <img style="margin-top: 9px;" class="dos" src="../imagenes/tipos/bobber.jpg">
+      <h2 class="h2_principal">Bobber</h2>
+      <p class="parrafo">Si el movimiento Café Racer dominó el viejo continente las Bobber hicieron lo propio en América, motos con lo mínimo en carenado y claro, cromo por todos lados. Una Bobber tiene un chasis rebajado con los mandos adelantados dando una posición de manejo muy característica. La parte trasera es minimalista y está hecha solo para una persona. Cuando te acostumbras a la posición de manejo es buena opción para viajes largos, pero al tener motor grande puedes sufrir en ella en el tránsito pesado.</p>
+    </div>
+
+    <div class="diiv">
+      <img class="uno" src="../imagenes/tipos/streettracker.jpg">
+      <h2 class="h2_principal">Street Tracker / Flat Tracker</h2>
+      <p class="parrafo">Las motos Flat Tracker nacen en las competencias de óvalos, que pueden ser de pavimento, tierra o incluso nieve, unidades de diseño simple que podría confundirse con las scrambler o café racer. Suelen ser muy delgadas y varían los neumáticos y altura del manubrio si son Flat o Street Tracker, siendo esta última la destinada para la calle.</p>
+    </div>
+
+    <div class="diiv">
+      <img class="dos" src="../imagenes/tipos/bratstyle.jpg">
+      <h2 class="h2_principal">Brat Style</h2>
+      <p class="parrafo">Hablando de combinaciones raras de segmentos, las Brat (no, no son las muñecas) serían una mezcla entre una Bobber y una Café Racer, donde su principal característica son las llantas anchas y un asiento corrido sin colín. Esta moto es una de las principales inspiraciones para hacer motos “customizadas” donde se tiene una posición de manejo extraña pero cómoda para la ciudad y viajes cortos.</p>
+    </div>
+
+    <div class="diiv">
+      <img class="uno" src="../imagenes/tipos/custom.jpg">
+      <h2 class="h2_principal">Custom</h2>
+      <p class="parrafo">Un segmento frecuentemente confundido con las motos crucero, si bien se basan en las motos como Indian, Harley-Davidson o creadas específicamente , son unidades que tienen un trabajo de personalización extrema, ya sea temáticas o simplemente con partes a veces extravagantes como ruedas gigantes al frente, tijeras muy largas y una característica casi constante que son los manubrios altos.</p>
+    </div>
+
+  </section>
+
+    <footer>
+    <p id="parrafo_siguenos">Síguenos en:</p>
+    <div id="redes">
+      <a href="https://www.facebook.com/"><img class="redes_img" src="../imagenes/comun/facebook.png"></a>
+      <a href="https://www.instagram.com/"><img class="redes_img" src="../imagenes/comun/instagram.jpg"></a>
+      <a href="https://www.twitter.com/"><img class="redes_img" src="../imagenes/comun/twitter.png"></a>
+    </div>
+          
+    <div id="afinal">
+      <ul>
+        <li id="li_footer"><a id="li_a"><u>Condiciones de uso</u></a></li>
+        <li id="li_footer"><a id="li_a2"><u>Política de cookies</u></a></li>
+      </ul>
+    </div>
+    
+  </footer>
+
+</body>
+</html>

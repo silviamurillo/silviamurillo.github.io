@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <meta charset="utf-8">
+
+  <style>
+    
+    body {
+      font-family: verdana;
+    } 
+
+    .thh, .tdd {
+      text-align: center;
+      padding-right: 50px;
+      font-size: 12px;}
+
+      .thh1, .tdd1 {
+      text-align: center;
+      font-size: 12px;}
+
+  </style>
+
+
+</head>
+
+<body onload="displayResult()">
+
+  <div id="example"></div>
+
+<script>
+  
+    function loadXMLDoc(filename) {
+      if (window.ActiveXObject) {
+        xhttp = new ActiveXObject("Msxml2.XMLHTTP");
+      } else {
+        xhttp = new XMLHttpRequest();
+      }
+      xhttp.open("GET", filename, false);
+      try {
+        xhttp.responseType = "msxml-document"
+      } catch (err) {}
+      xhttp.send("");
+      return xhttp.responseXML;
+    }
+    function displayResult() {
+      xml = loadXMLDoc("motogp.xml");
+      xsl = loadXMLDoc("motogp.xsl");
+      
+      if (window.ActiveXObject || xhttp.responseType == "msxml-document") {
+        ex = xml.transformNode(xsl);
+        document.getElementById("example").innerHTML = ex;
+      }
+      
+      else if (document.implementation && document.implementation.createDocument) {
+        xsltProcessor = new XSLTProcessor();
+        xsltProcessor.importStylesheet(xsl);
+        resultDocument = xsltProcessor.transformToFragment(xml, document);
+        document.getElementById("example").appendChild(resultDocument);
+      }
+    }
+  </script>
+
+</body>
+</html>

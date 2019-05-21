@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<formulario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="formulario.xsd">
+
+    <elementos>
+        <nombre>Nombre:</nombre>
+        <apellido>Apellidos:</apellido>
+        <correo>Correo electrónico:</correo>
+        <fecha>Fecha de nacimiento:</fecha>
+        <contraseña>Contraseña:</contraseña>
+        <contraseña_2>Repetir contraseña:</contraseña_2>
+        <registro>Registrarse</registro>
+    </elementos>
+    
+</formulario>

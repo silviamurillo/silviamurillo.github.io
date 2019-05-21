@@ -1,0 +1,82 @@
+#pausa_play {
+	margin-top: 15px;
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+}
+
+#div_audio {
+	margin-left: 450px;
+}
+
+#ifr_registro {
+	margin-top: 20px;
+	margin-left: 385px;
+	width: 1000px;
+	height: 395px;
+	padding-bottom: 30px;
+}
+
+#fin1, #fin2 {
+	float: left;
+	position: absolute;
+	margin-left: 70px;
+	width: 15%;
+	border-radius: 5px;
+}
+
+#fin3, #fin4 {
+	float: right;
+	position: absolute;
+	margin-left: 720px;
+	width: 15%;
+	border-radius: 5px;
+}
+
+#fin1, #fin3 {
+	top: 170px;
+}
+
+#fin2, #fin4 {
+	top: 367px;
+}
+
+footer {
+	border-top:1.5px solid black;
+}
+
+#parrafo_siguenos {
+	text-align: center;
+}
+
+#redes {
+	margin-left: 425px;
+}
+
+.redes_img {
+	width: 35px;
+	padding: 5px;
+}
+
+#afinal {
+  margin-left: 288px;
+  padding-bottom: 20px;
+}
+
+#li_footer {
+  list-style: none;
+  float: left;
+}
+
+#li_a {
+  margin-right: 40px;
+}
+
+#li_a, #li_a2 {
+  
+  cursor: pointer;
+}
+
+#li_a:hover, #li_a2:hover {
+  color: red;
+}

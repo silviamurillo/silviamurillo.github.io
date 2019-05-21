@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Carnets</title>
+  <meta charset="utf-8">
+  <link rel="shortcut icon" type="image/x-icon" href="../favicon/tmlogo.ico">
+
+
+  <link rel="stylesheet" type="text/css" href="../css/html/carnets.css">
+  
+	<link rel="stylesheet" type="text/css" href="../css/comun.css">
+	<script src="../js/comun.js"></script>
+
+</head>
+
+<body>
+
+	<header>
+
+		<div class="topnav">
+  			
+        <a id="abrir" class="abrir-cerrar" href="javascript:void(0)" onclick="mostrar()"><img src="../imagenes/comun/desplegar.png"></a>
+  			<a id="imagen_todomoto" href="../index.html"><img src="../imagenes/comun/todomoto1.png"></a>
+  			<a id="iniciar_sesion_enlace" style="float: right; cursor: pointer; color: white;" onclick="document.getElementById('funcion_iniciar').style.display='block'" style="width:auto;"><u>Iniciar sesión</u></a>
+		
+    </div>
+
+
+
+<!--MENU-->
+
+		<div id="barra" class="barra">
+		
+    	<a href="#" class="boton-cerrar" onclick="ocultar()">x</a>
+    	<ul>
+				<li><a href="tipos_de_motos.html">Tipos de motos</a></li>
+				<li><a href=carnets.html>Carnets</a></li>
+				<li><a href="rutas_por_españa.html">Rutas por España</a></li>
+				<li><a href="competiciones.html">Competiciones</a></li>
+			</ul>
+		
+    </div>
+
+<!--FIN MENU-->
+
+
+
+<!--INICIAR SESION-->
+
+      <div id="funcion_iniciar" class="inicio">
+        <form class="modal-content animate">
+            <div class="imagen_iniciar">
+              <span onclick="document.getElementById('funcion_iniciar').style.display='none'" class="cerrar">x</span>
+              <img id="imagen_avataar" src="../imagenes/comun/avatar.png">
+            </div>
+
+                <div class="datos">
+                  <form>
+                      <label for="correo"><b>Correo electrónico</b></label><br>
+                      <input style="width: 100%; margin-top: 2%;" type="email" placeholder="Correo electrónico" name="correo" required id="form_inicio"><br><br>
+
+                    <label for="contra"><b>Contraseña</b></label><br>
+                    <input style="width: 100%;" type="password" placeholder="Contraseña" name="contra" required id="form_inicio"><br>
+
+                    <label><input type="checkbox" checked="checked" name="recordar">Recuérdame</label>
+        
+                  <button class="botonn" type="submit">Iniciar sesión</button>
+          </form>
+                  
+                  <a id="ainicio1" href="">¿Has olvidado tu contraseña?</a>
+                  <a id="ainicio2" href="registro.html">¿No tienes cuenta? Regístrate</a>
+                </div>
+                
+            </form>
+        </div>
+
+<!--FIN INICIAR SESION-->
+  
+  </header>
+
+  <section>
+  	<h1 id="h1_principal">Carnet de moto A1, A2 y A ¿qué motos puedes conducir con cada uno?</h1>
+			<img id="permisos" src="../imagenes/carnets/permisos.jpg">
+			<p id="parrafo1_carnet">El carnet de moto está dividido en tres categorías, A1, A2 y A, que escalonan el acceso a la conducción de motos en función de su potencia y experiencia del piloto. Te explicamos qué motos puedes conducir con cada uno de ellos.
+			<br>
+			La última novedad dentro de la normativa del carnet de moto fue implantar el denominado carnet A2 el pasado 2010. Fue el método elegido por la DGT para tener un escalón intermedio entre el permiso A1 -carnet que te permite conducir motos y scooter hasta 125 cc- y el carnet A, que es el permiso con el que puedes conducir cualquier tipo de moto sin limitación de cilindrada.
+			<br>
+			Así pues, si no tienes muy claro en qué punto estás y las motos a las que puedes acceder según tu experiencia, te explicamos detalladamente cuáles son los aspectos clave de cada uno de los carnets de moto.</p>
+
+			<img id="img_a1" src="../imagenes/carnets/a11.jpg">
+			<h2 class="h2_carnet" style="margin-top: 40px;">Carnet A1</h2>			
+			<p class="parrafo2">Según la norma, el permiso de conducción de la clase A1 autoriza para conducir motocicletas con una cilindrada máxima de 125 cm3, una potencia máxima de 11 kW (15 CV) y una relación potencia/peso máxima de 0,1 kW/kg y triciclos de motor cuya potencia máxima no exceda de 15 kW. La edad mínima para obtenerlo será de 16 años cumplidos. Los conductores que cuenten con 2 años de experiencia en el carnet B de coche, tendrán automáticamente convalidad el carnet A1 de moto.</p>
+
+			<img id="img_a2" src="../imagenes/carnets/a22.jpg">
+			<h2 class="h2_carnet" style="margin-top: 40px;">Carnet A2</h2>			
+			<p class="parrafo2">El permiso de conducción de la clase A2 autoriza para conducir motocicletas con una potencia máxima de 35 Kw (48 CV) y una relación potencia/peso máxima de 0,2 kW/kg y no derivadas de un vehículo con más del doble de su potencia. La edad mínima para obtenerlo será de 18 años cumplidos. Si se tratase de una moto limitada con un kit de limitación para el carnet A2, la potencia original de la moto no podrá exceder los 96 CV, aproximadamente. Es decir, si te compras una moto de 100 CV no podrás limitarla para usarla con el carnet A2.</p>
+
+			<img id="img_a" src="../imagenes/carnets/a.jpg">
+			<h2 class="h2_carnet" style="margin-top: 40px;">Carnet A</h2>			
+			<p class="parrafo2">El permiso de conducción de la clase A autoriza para conducir cualquier tipo de motocicletas y triciclos de motor. La edad mínima para obtenerlo será de 20 años cumplidos pero hasta los 21 años no autorizará a conducir triciclos de motor cuya potencia máxima exceda de 15 kW. Para sacárselo, es necesario tener dos años de experiencia del carnet A2.</p>
+
+			<h2 id="h2_examenes">Exámenes</h2>
+
+
+
+			<button class="acordeon">AM</button>
+				<div class="panel">
+  					<p class="parrafo_acordeon">La licencia AM consiste en dos pruebas: un examen teórico y una parte práctica en circuito cerrado. Dicha parte práctica consiste en pasar entre dos líneas blancas sin pisarla y en hacer un zigzag entre conos.</p>
+  					<video class="video_carnet" width="400" controls>
+  						<source src="../videos.audios/carnetam.mp4" type="video/mp4">
+  					</video>
+				</div>
+
+			<button class="acordeon">A1 / A2</button>
+				<div class="panel">
+  					<p class="parrafo_acordeon">Para los permisos A1 y A2 dependerá de si tienes el carnet del coche y, en el caso de tenerlo, cuántos años lleves con él. Por otro lado, existe una diferencia importante entre los exámenes prácticos de A1 y A2: en el primero usarás una moto de 125 cc y 15 cv, mientras que en el segundo utilizarás una moto con más potencia y más cilindrada. Dicho esto, vamos por partes:</p>
+						<ul>
+							<li>Si no tienes carnet de coche tendrás que hacer, tanto para A1 como para A2, un examen teórico común y uno específico, a lo que sumarás el examen práctico en pista y otro en carretera.</li>
+							<li>Si llevas menos de tres años con el carnet de coche tendrás que hacer todo lo anterior excepto la parte teórica común.</li>
+							<li>Si te sacaste el carnet de coche hace más de tres años tendrás automáticamente el permiso A1.</li>
+							<li>Eso significa que deberás hacer el examen teórico común y los dos prácticos para tener en tu cartera el A2.</li>
+							<li>Por último, si tienes el permiso A1 (es indiferente aquí tener el B) sólo tendrás que hacer las pruebas prácticas para obtener el A2.</li>
+						</ul>
+
+						<video class="video_carnet" width="400" controls>
+  							<source src="../videos.audios/carneta1a2.mp4" type="video/mp4">
+  						</video>
+				</div>
+
+			<button class="acordeon" style="margin-bottom: 30px;">A</button>
+				<div class="panel">
+  					<p class="parrafo_acordeon">El permiso A es el que todos queremos, el deseado, el que te deja conducir todo tipo de motos. Hace un lustro te sacabas directamente el carnet A, pero tenías que estar limitado durante dos años a 35 cv. En cambio ahora, es obligatorio llevarte dos años con el A2 (47 cv). Tras eso, puedes hacer un curso de nueve horas para conseguir el A. Esas nueve horas se repartirán de la siguiente manera:</p>
+						<ul>
+							<li>Una hora y media de conocimientos teóricos: te sentarás con el profesor de la autoescuela y estaréis estudiando los diferentes equipamientos obligatorios para ir en moto, como transferir pesos, nociones básicas de mecánica, cómo trazar las curvas…</li>
+							<li>Una hora y media de concienciación y sensibilización: en ella se tratarán temas de seguridad vial, de cómo recuperar los puntos perdidos, de los diferentes factores de riesgo...</li>
+							<li>Cuatro horas de parte práctica en circuito cerrado: por fin salimos del aulario de la autoescuela y nos ponemos el casco. En estas primeras cuatro horas estaremos realizando maniobras similares a las que hicimos para obtener el carnet A2, aunque en esta ocasión sobre una moto de mayor potencia.</li>
+							<li>Dos horas de parte práctica en carretera: finalizaremos con dos horas prácticas circulando por carretera, en la que viviremos las situaciones habituales a las que nos enfrentaremos cuando tengamos el carnet.</li>
+						</ul> 
+					<p class="parrafo_acordeon">Como podéis apreciar, en ningún momento se ha mencionado la palabra examen. ¿Por qué? Pues porque el permiso A consta sólo de este curso de nueve horas; en ningún momento tendremos que examinarnos. Eso sí, en cualquier momento puede venir un inspector de la DGT a cerciorarse de que estamos realizando el curso.</p>
+					<video class="video_carnet" width="400" controls>
+  						<source src="../videos.audios/carneta.mp4" type="video/mp4">
+  					</video>
+				</div>
+  </section>
+
+
+  <script src="../js/acordeon.js"></script>
+
+
+    <footer>
+    <p id="parrafo_siguenos">Síguenos en:</p>
+    <div id="redes">
+      <a href="https://www.facebook.com/"><img class="redes_img" src="../imagenes/comun/facebook.png"></a>
+      <a href="https://www.instagram.com/"><img class="redes_img" src="../imagenes/comun/instagram.jpg"></a>
+      <a href="https://www.twitter.com/"><img class="redes_img" src="../imagenes/comun/twitter.png"></a>
+    </div>
+          
+    <div id="afinal">
+      <ul>
+        <li id="li_footer"><a id="li_a"><u>Condiciones de uso</u></a></li>
+        <li id="li_footer"><a id="li_a2"><u>Política de cookies</u></a></li>
+      </ul>
+    </div>
+    
+  </footer>
+
+</body>
+</html>

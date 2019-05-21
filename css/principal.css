@@ -1,0 +1,237 @@
+* {
+  font-family: verdana;
+}
+
+*:focus {
+  outline: none;
+}
+
+body {
+  background-color: grey;
+  width: 1000px;
+  margin: auto;
+}
+
+header, section, article, nav, aside, footer {
+  background-color: white;
+}
+
+aside {
+  width: 250px;
+  float: left;
+  position: absolute;
+  top: 608px;
+  text-align: center;
+  height: 450px;
+}
+
+article {
+  float: right;
+  position: absolute;
+  margin-left: 250px;
+  top: 608px;
+  width: 750px;
+  height: 450px;
+}
+
+
+
+.topnavdos {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnavdos a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnavdos a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnavdos a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+
+
+
+.imagen_slid {
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+
+
+#div_contactanos {
+  border-radius: 20px;
+  border: 1px solid black;  
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 220px;
+  text-align: center;
+}
+
+#conta {
+  width: 180px;
+  height: 20px;
+  margin-top: 2px;
+  border-radius: 5px;
+}
+
+#enviar_contactanos {
+  border-radius: 5px;
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+textarea {
+  resize: none;
+}
+
+
+
+.containerr {
+  position: relative;
+  max-width: 300px;
+}
+
+.imagee {
+  display: block;
+}
+
+.imagee:hover {
+  opacity: 0.4;
+}
+
+.encima {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  width: 260px;
+  transition: 1s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.containerr:hover .encima {
+  opacity: 1;
+}
+
+#container1, #container3 {
+  margin-left: 50px;
+}
+
+#container1 {
+  margin-top: 55px;
+  margin-bottom: 20px;
+  float: left;
+}
+
+#container2 {
+  margin-top: 55px;
+  margin-bottom: 20px;
+  margin-right: 40px;
+  float: right;
+}
+
+#container3 {
+  float: left;
+  
+}
+
+#container4 {
+  float: right;
+  margin-right: 40px;
+
+}
+
+
+
+footer {
+  margin-top: 451px;
+  border-top:1.5px solid black;
+}
+
+#parrafo_siguenos {
+  text-align: center;
+}
+
+#redes {
+  margin-left: 425px;
+}
+
+.redes_img {
+  width: 35px;
+  padding: 5px;
+}
+
+#afinal {
+  margin-left: 288px;
+  padding-bottom: 20px;
+}
+
+#li_footer {
+  list-style: none;
+  float: left;
+}
+
+#li_a {
+  margin-right: 40px;
+}
+
+#li_a, #li_a2 {
+  
+  cursor: pointer;
+}
+
+#li_a:hover, #li_a2:hover {
+  color: red;
+}

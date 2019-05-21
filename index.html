@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TodoMoto</title>
+	<meta charset="utf-8">
+	  <link rel="shortcut icon" type="image/x-icon" href="favicon/tmlogo.ico">
+
+	<link rel="stylesheet" type="text/css" href="css/principal.css">
+	<link rel="stylesheet" type="text/css" href="css/comun.css">
+	<script src="js/comun.js"></script>
+  <script src="js/slider.js"></script>
+</head>
+<body onload="showSlides()">
+	<header>
+		    <div class="topnav">
+        
+        <a id="abrir" class="abrir-cerrar" href="javascript:void(0)" onclick="mostrar()"><img src="imagenes/comun/desplegar.png"></a>
+        <a id="imagen_todomoto" href="index.html"><img src="imagenes/comun/todomoto1.png"></a>
+        <a id="iniciar_sesion_enlace" style="float: right; cursor: pointer; color: white;" onclick="document.getElementById('funcion_iniciar').style.display='block'" style="width:auto;"><u>Iniciar sesión</u></a>
+    
+    </div>
+
+
+
+<!--MENU-->
+
+<div id="barra" class="barra">
+    
+      <a href="#" class="boton-cerrar" onclick="ocultar()">x</a>
+      <ul>
+        <li><a href="html/tipos_de_motos.html">Tipos de motos</a></li>
+        <li><a href=html/carnets.html>Carnets</a></li>
+        <li><a href="html/rutas_por_españa.html">Rutas por España</a></li>
+        <li><a href="html/competiciones.html">Competiciones</a></li>
+      </ul>
+    
+    </div>
+
+<!--FIN MENU-->
+
+
+
+<!--INICIAR SESION-->
+
+		<div id="funcion_iniciar" class="inicio">
+        <form class="modal-content animate">
+            <div class="imagen_iniciar">
+              <span onclick="document.getElementById('funcion_iniciar').style.display='none'" class="cerrar">x</span>
+              <img id="imagen_avataar" src="imagenes/comun/avatar.png">
+            </div>
+
+                <div class="datos">
+                  <form>
+                      <label for="correo"><b>Correo electrónico</b></label><br>
+                      <input style="width: 100%; margin-top: 2%;" type="email" placeholder="Correo electrónico" name="correo" required id="form_inicio"><br><br>
+
+                    <label for="contra"><b>Contraseña</b></label><br>
+                    <input style="width: 100%;" type="password" placeholder="Contraseña" name="contra" required id="form_inicio"><br>
+
+                    <label><input type="checkbox" checked="checked" name="recordar">Recuérdame</label>
+        
+                  <button class="botonn" type="submit">Iniciar sesión</button>
+          </form>
+                  
+                  <a id="ainicio1" href="">¿Has olvidado tu contraseña?</a>
+                  <a id="ainicio2" href="html/registro.html">¿No tienes cuenta? Regístrate</a>
+                </div>
+                
+            </form>
+        </div>
+
+<!--FIN INICIAR SESION-->
+
+
+
+		<div class="topnavdos">
+  			<a style="margin-left: 160px;" class="active" href="#index">Principal</a>
+  			<a href="html/tipos_de_motos.html">Tipos de motos</a>
+  			<a href="html/carnets.html">Carnets</a>
+  			<a href="html/rutas_por_españa.html">Rutas por España</a>
+  			<a href="html/competiciones.html">Competiciones</a>
+		</div>
+
+
+
+    <div class="slideshow-container">
+
+      <div class="mySlides fade">
+        <img class="imagen_slid" src="imagenes/principal/slider/slider1.jpg">
+      </div>
+
+      <div class="mySlides fade">
+        <img class="imagen_slid" src="imagenes/principal/slider/slider2.jpg">
+      </div>
+
+      <div class="mySlides fade">
+        <img class="imagen_slid" src="imagenes/principal/slider/slider3.jpg">
+      </div>
+    </div>
+
+	</header>
+
+  <section>
+
+    <aside>
+      <div id="div_contactanos">
+        <h1 id="h1_contactanos">Contáctanos</h1>
+        <div>
+          <form>
+
+            <label for="nombre"><b>Nombre:</b></label><br>
+            <input id="conta" type="text" name="nombre" required><br><br>
+
+            <label for="email"><b>E-mail:</b></label><br>
+            <input id="conta" type="email" name="email" required><br><br>
+
+            <label for="asunto"><b>Asunto:</b></label><br>
+            <input id="conta" type="text" name="asunto" required><br><br>
+
+            <label for="mensaje"><b>Mensaje:</b></label><br>
+
+            <textarea id="conta" rows="10" style="height: 60px;"></textarea><br><br>
+
+            <button id="enviar_contactanos" type="submit">Enviar</button>
+
+          </form>
+        </div>
+      </div>
+    </aside>
+
+  </section>
+
+
+
+  <article>
+
+      <div class="containerr" id="container1">
+          <a href="html/tipos_de_motos.html"><img src="imagenes/principal/tipos.jpg" class="imagee"></a>
+          <div class="encima">Tipos</div>
+      </div>  
+
+      <div class="containerr" id="container2">
+          <a href="html/carnets.html"><img src="imagenes/principal/carnets.png" class="imagee"></a>
+          <div class="encima">Carnets</div>
+      </div>  
+
+      <div class="containerr" id="container3">
+          <a href="html/rutas_por_españa.html"><img src="imagenes/principal/rutas.jpg" class="imagee"></a>
+          <div class="encima">Rutas</div>
+      </div>
+
+      <div class="containerr" id="container4">
+          <a href="html/competiciones.html"><img src="imagenes/principal/competiciones.jpg" class="imagee"></a>
+          <div class="encima">Competiciones</div>
+      </div>
+      
+    </article>
+
+
+
+    <footer>
+          <p id="parrafo_siguenos">Síguenos en:</p>
+    <div id="redes">
+      <a href="https://www.facebook.com/"><img class="redes_img" src="imagenes/comun/facebook.png"></a>
+      <a href="https://www.instagram.com/"><img class="redes_img" src="imagenes/comun/instagram.jpg"></a>
+      <a href="https://www.twitter.com/"><img class="redes_img" src="imagenes/comun/twitter.png"></a>
+    </div>
+          
+    <div id="afinal">
+      <ul>
+        <li id="li_footer"><a id="li_a"><u>Condiciones de uso</u></a></li>
+        <li id="li_footer"><a id="li_a2"><u>Política de cookies</u></a></li>
+      </ul>
+    </div>
+    
+  </footer>
+
+</body>
+</html>

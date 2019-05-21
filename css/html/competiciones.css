@@ -1,0 +1,136 @@
+#h1_principal {
+  font-size: 22px;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+#img_principal {
+  padding-bottom: 30px;
+  width: 550px;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+#h2_principal {
+  font-size: 20px;
+  text-align: center;
+}
+
+#parrafo {
+  font-size: 15px;
+}
+
+#motogpp1, #motogpp, #motogp2 {
+  float: left;
+  position: relative;
+  margin-left: 20px;
+}
+
+#motogpp1 {
+  top: 15px;
+}
+
+#motogpp {
+  top: 55px;
+}
+
+#motogp2 {
+  top: 95px;
+}
+
+#clasificaciontitulo {
+  margin-left: 550px;
+  margin-top: 30px;
+}
+
+#iframe_compe {
+  width: 450px;
+  height: 600px;
+  float: right;
+  position: relative;
+  margin-right: 20px;
+  margin-bottom: 30px;
+}
+
+.img_compet {
+  margin: auto;
+  display: block;
+}
+
+.tablaa {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+
+.tablaa button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+.tablaa button:hover {
+  background-color: #ddd;
+}
+
+.tablaa button.active {
+  background-color: #ccc;
+}
+
+.contenidoo {
+  display: none;
+  padding: 6px 12px;
+  border-top: none;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+footer {
+  border-top:1.5px solid black;
+}
+
+#parrafo_siguenos {
+  text-align: center;
+}
+
+#redes {
+  margin-left: 425px;
+}
+
+.redes_img {
+  width: 35px;
+  padding: 5px;
+}
+
+#afinal {
+  margin-left: 288px;
+  padding-bottom: 20px;
+}
+
+#li_footer {
+  list-style: none;
+  float: left;
+}
+
+#li_a {
+  margin-right: 40px;
+}
+
+#li_a, #li_a2 {
+  
+  cursor: pointer;
+}
+
+#li_a:hover, #li_a2:hover {
+  color: red;
+}

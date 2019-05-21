@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Registro</title>
+  <meta charset="utf-8">
+    <link rel="shortcut icon" type="image/x-icon" href="../favicon/tmlogo.ico">
+
+
+  <link rel="stylesheet" type="text/css" href="../css/html/registro.css">
+
+	<link rel="stylesheet" type="text/css" href="../css/comun.css">
+	<script src="../js/comun.js"></script>
+
+</head>
+
+<body>
+
+	<header>
+    
+		<div class="topnav">
+  			<a id="abrir" class="abrir-cerrar" href="javascript:void(0)" onclick="mostrar()"><img src="../imagenes/comun/desplegar.png"></a>
+  			<a id="imagen_todomoto" href="../index.html"><img src="../imagenes/comun/todomoto1.png"></a>
+  			<a id="iniciar_sesion_enlace" style="float: right; cursor: pointer; color: white;" onclick="document.getElementById('funcion_iniciar').style.display='block'" style="width:auto;"><u>Iniciar sesión</u></a>
+		</div>
+
+
+
+<!--MENU-->
+
+		<div id="barra" class="barra">
+    
+      <a href="#" class="boton-cerrar" onclick="ocultar()">x</a>
+      <ul>
+        <li><a href="tipos_de_motos.html">Tipos de motos</a></li>
+        <li><a href=carnets.html>Carnets</a></li>
+        <li><a href="rutas_por_españa.html">Rutas por España</a></li>
+        <li><a href="competiciones.html">Competiciones</a></li>
+      </ul>
+    
+    </div>
+
+<!--FIN MENU-->
+
+
+
+<!--INICIAR SESION-->
+
+		<div id="funcion_iniciar" class="inicio">
+        <form class="modal-content animate">
+            <div class="imagen_iniciar">
+              <span onclick="document.getElementById('funcion_iniciar').style.display='none'" class="cerrar">x</span>
+              <img id="imagen_avataar" src="../imagenes/comun/avatar.png">
+            </div>
+
+                <div class="datos">
+                  <form>
+                      <label for="correo"><b>Correo electrónico</b></label><br>
+                      <input style="width: 100%; margin-top: 2%;" type="email" placeholder="Correo electrónico" name="correo" required id="form_inicio"><br><br>
+
+                    <label for="contra"><b>Contraseña</b></label><br>
+                    <input style="width: 100%;" type="password" placeholder="Contraseña" name="contra" required id="form_inicio"><br>
+
+                    <label><input type="checkbox" checked="checked" name="recordar">Recuérdame</label>
+        
+                  <button class="botonn" type="submit">Iniciar sesión</button>
+          </form>
+                  
+                  <a id="ainicio1" href="">¿Has olvidado tu contraseña?</a>
+                  <a id="ainicio2" href="registro.html">¿No tienes cuenta? Regístrate</a>
+                </div>
+                
+            </form>
+        </div>
+
+<!--FIN INICIAR SESION-->
+  
+  </header>
+
+  <section>
+    
+    <audio id="mi_audio">
+      <source src="../videos.audios/audiomoto.mp3" type="audio/mpeg">
+    </audio>
+
+    <div id="div_audio">
+      <a onclick="iniciar()"><img id="pausa_play" src="../imagenes/registro/play.png"></a>
+      <a onclick="parar()"><img id="pausa_play" src="../imagenes/registro/pause.png"></button>
+      </a>
+    </div>  
+
+    <iframe  id="ifr_registro" frameborder="0" scrolling="no" src="../xml/formulario/formulario.html"></iframe>   
+
+    <img id="fin1" src="../imagenes/registro/motofin1.jpg">
+    <img id="fin2" src="../imagenes/registro/motofin2.jpg">
+    <img id="fin3" src="../imagenes/registro/motofin3.jpg">
+    <img id="fin4" src="../imagenes/registro/motofin4.jpg">
+
+<!--SCRIPT AUDIO-->
+
+    <script>
+
+      var x = document.getElementById("mi_audio"); 
+
+      function iniciar() { 
+          x.play(); 
+      } 
+
+      function parar() { 
+          x.pause(); 
+      }
+
+    </script>
+
+  </section>
+
+  <footer>
+    <p id="parrafo_siguenos">Síguenos en:</p>
+    <div id="redes">
+      <a href="https://www.facebook.com/"><img class="redes_img" src="../imagenes/comun/facebook.png"></a>
+      <a href="https://www.instagram.com/"><img class="redes_img" src="../imagenes/comun/instagram.jpg"></a>
+      <a href="https://www.twitter.com/"><img class="redes_img" src="../imagenes/comun/twitter.png"></a>
+    </div>
+          
+    <div id="afinal">
+      <ul>
+        <li id="li_footer"><a id="li_a"><u>Condiciones de uso</u></a></li>
+        <li id="li_footer"><a id="li_a2"><u>Política de cookies</u></a></li>
+      </ul>
+    </div>
+    
+  </footer>
+
+</body>
+</html>

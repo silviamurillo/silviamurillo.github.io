@@ -1,0 +1,134 @@
+#h1_principal {
+	font-size: 22px;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+#img_principal {
+	padding-bottom: 30px;
+	width: 550px;
+	height: auto;
+	display: block;
+	margin: auto;
+}
+
+#text1, #parrafo {
+	margin-left: 70px;
+	margin-right: 70px;
+}
+
+#text1 {
+	font-size: 20px;
+}
+
+#parrafo {
+	margin-top: 25px;
+	font-size: 15px;
+}
+
+#duraton, #paisvasco, #galicia, #cadiz, #granada, #aragon {
+	width: 200px;
+	height: auto;
+}
+
+
+#duraton {
+	float: left;
+	position: absolute;
+	top: 905px;
+	left: 250px;
+}
+
+#paisvasco {
+	float: left;
+	position: absolute;
+	top: 1085px;
+	left: 250px;
+
+}
+
+#galicia {
+	float: left;
+	position: absolute;
+	top: 1265px;
+	left: 250px;
+
+}
+
+#cadiz {
+	float: right;
+	position: absolute;
+	top: 905px;
+	right: 250px;
+
+}
+
+#granada {
+	float: right;
+	position: absolute;
+	top: 1085px;
+	right: 250px;
+}
+
+#aragon {
+	float: right;
+	position: absolute;
+	top: 1265px;
+	right: 250px;
+}
+
+.opaci:hover {
+  opacity: 0.4;
+}
+
+iframe {
+	margin-left: 300px;
+	width: 395px;
+	margin-top: 40px;
+	height: 530px;
+	margin-bottom: 20px;
+}
+
+
+
+footer {
+	border-top:1.5px solid black;
+	margin-top: 0px;
+}
+
+#parrafo_siguenos {
+	text-align: center;
+}
+
+#redes {
+	margin-left: 425px;
+}
+
+.redes_img {
+	width: 35px;
+	padding: 5px;
+}
+
+#afinal {
+  margin-left: 288px;
+  padding-bottom: 20px;
+}
+
+#li_footer {
+  list-style: none;
+  float: left;
+}
+
+#li_a {
+  margin-right: 40px;
+}
+
+#li_a, #li_a2 {
+  
+  cursor: pointer;
+}
+
+#li_a:hover, #li_a2:hover {
+  color: red;
+}

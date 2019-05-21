@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="formulario">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="elementos">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="nombre"/>
+              <xs:element type="xs:string" name="apellido"/>
+              <xs:element type="xs:string" name="correo"/>
+              <xs:element type="xs:string" name="fecha"/>
+              <xs:element type="xs:string" name="contraseña"/>
+              <xs:element type="xs:string" name="contraseña_2"/>
+              <xs:element type="xs:string" name="registro"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
